@@ -25,7 +25,7 @@ public class WebConnector {
 
     }
 
-    public static void closeBrowser() {
-        driver.quit();
+public static void closeBrowser() {
+driver.quit();
     }
 }

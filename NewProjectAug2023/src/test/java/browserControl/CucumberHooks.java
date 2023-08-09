@@ -9,6 +9,7 @@ public class CucumberHooks extends WebConnector{
     public void setup() {openBrowser();}
 
     @After
-    public void teardown() {closeBrowser();}
-
+    public void teardown() {
+        // {closeBrowser();}
+    }
 }
