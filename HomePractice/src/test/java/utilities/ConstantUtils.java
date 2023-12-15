@@ -1,0 +1,15 @@
+package utilities;
+
+import browserControl.WebConnector;
+
+public class ConstantUtils  {
+    public static String BASE_URL = "https://the-internet.herokuapp.com";
+
+    //    Browser Name Chrome or Firefox
+    public static String BROWSER_NAME = "CHROME";
+
+    //    Browser Type Normal/Headless
+    public static String BROWSER_TYPE = "normal";
+
+
+}
